@@ -24,7 +24,7 @@ export default function Header({ title, showCancel = true } : HeaderProps) {
       <Text style={styles.title}>{title}</Text>
 
       { showCancel ? (
-        <BorderlessButton onPress={() => {}}>
+        <BorderlessButton onPress={handleGoBackToAppHomepage}>
           <Feather name="x" size={24} color="#ff669d" />
         </BorderlessButton>
       ) : <View /> }
@@ -34,7 +34,7 @@ export default function Header({ title, showCancel = true } : HeaderProps) {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 24,
+    padding: 18,
     backgroundColor: "#f9fafc",
     borderBottomWidth: 1,
     borderColor: "#dde3f0",

@@ -43,7 +43,7 @@ export default function Routes() {
           component={OrphanageData}
           options={{
             headerShown: true,
-            header: () => <Header title="Selecione no mapa" />
+            header: () => <Header title="Informe os dados" />
           }} 
         />
       </Navigator>
