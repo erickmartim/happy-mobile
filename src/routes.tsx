@@ -36,7 +36,7 @@ export default function Routes() {
           options={{
             headerShown: true,
             header: () => <Header title="Selecione no mapa" />
-          }} 
+          }}
         />
         <Screen 
           name="OrphanageData" 
